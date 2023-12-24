@@ -1,1 +1,3 @@
 # Overrides for production environment
+canonifyURLs = false
+baseURL = 'https://xunx911.netlify.app/'
