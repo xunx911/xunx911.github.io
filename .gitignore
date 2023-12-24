@@ -1,0 +1,9 @@
+node_modules/
+resources/_gen/
+public/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
+.idea/
