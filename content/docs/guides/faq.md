@@ -18,27 +18,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-
----
-title: "Faq"
-description: ""
-summary: ""
-date: 2023-12-24T17:38:09+08:00
-lastmod: 2023-12-24T17:38:09+08:00
-draft: true
-menu:
-  docs:
-    parent: ""
-    identifier: "faq-2f3c3529255e311564d27d6fec7df7ad"
-weight: 999
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
----
-
 # 记录BLOG
 ## 踩到的坑
 ### apt直接安装版本不对
