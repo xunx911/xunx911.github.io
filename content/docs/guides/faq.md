@@ -39,6 +39,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
+# 记录BLOG
 ## 踩到的坑
 ### apt直接安装版本不对
 https://getdoks.org/docs/start-here/getting-started/
