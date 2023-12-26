@@ -1,5 +1,5 @@
 ---
-title: "Docs"
+title: "Re:从零开始的搭博客记录"
 description: ""
 summary: ""
 date: 2023-09-07T16:12:03+02:00
