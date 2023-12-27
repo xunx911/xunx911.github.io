@@ -1,15 +1,15 @@
 ---
-title: "Hugo(Hyas Doks)+Github+Netlify搭建博客(WSL)"
-description: "本人搭建环境为Win10, WSL(Ubuntu22.04)，Hyas是以Hugo为引擎，Node.js作框架的网站构建工具，Doks是Hyas的官方主题，本文使用它来搭建博客。"
+title: "安装Doks"
+description: ""
 summary: ""
-date: 2023-12-24T21:54:09+08:00
-lastmod: 2023-12-24T21:54:09+08:00
+date: 2023-12-27T15:06:33+08:00
+lastmod: 2023-12-27T15:06:33+08:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "faq-d752adf1f3c5ec51562e973673d2fd42"
-weight: 999
+    identifier: "安装Doks-4f458a67b9c2e2db8815f01a6757fdd4"
+weight: 210
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -17,7 +17,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
 # 本地创建博客项目
 ## 安装
 ## 踩到的坑
@@ -37,4 +36,15 @@ https://github.com/gethyas/doks/issues/1041
 conda install 
 ```
 
-test
+```bash{title="Installing dependencies…"}
+pnpm create hyas@latest
+```
+
+### 修改主页
+layout/index.html
+
+### 修改侧边栏
+调整权重，不要从0开始。。。
+
+### 新建一个docs风格的
+npm run create-- --kind docs name
