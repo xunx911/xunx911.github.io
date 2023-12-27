@@ -32,3 +32,9 @@ https://stackoverflow.com/questions/64865626/can-i-permanently-add-ssh-private-k
 ### 网页没有CSS
 
 https://github.com/gethyas/doks/issues/1041
+
+```bash
+conda install 
+```
+
+test
