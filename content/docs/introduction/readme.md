@@ -23,5 +23,5 @@ seo:
 {{< callout context="note" title="Note" icon="info-circle" >}}
 本人对于搭博客、npm、JavaScript等等基本没接触过，请酌情参考、不吝赐教。
 
-另：疑似由于Hyas2.0版本重建的问题，官方文档大量丢失，所以本文中有的操作是自己摸索的，不是best practice,有依据的会尽量贴出原链接。
+另：疑似由于Hyas2.0版本重建的问题，[官方文档大量丢失](https://github.com/gethyas/doks/discussions/1124)，所以本文中有的操作是自己摸索的，不是best practice,有依据的会尽量贴出原链接。
 {{< /callout >}}
