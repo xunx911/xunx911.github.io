@@ -17,34 +17,40 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-# 本地创建博客项目
-## 安装
-## 踩到的坑
-### apt直接安装版本不对
-https://github.com/nodesource/distributions
-https://getdoks.org/docs/start-here/getting-started/
-### 先git clone下来再 hyas create导致设置base dictionary
-### SSH
-#### 之前的密钥莫名失效，新添加之后需要把之前的删除掉否则新的未应用
-#### 每次重启终端都需要重新添加密钥
-https://stackoverflow.com/questions/64865626/can-i-permanently-add-ssh-private-key-to-my-user-agent
-### 网页没有CSS
 
-https://github.com/gethyas/doks/issues/1041
+# 使用nodesource安装Node.js
+Hyas要求Node.js版本{{< math >}}$\geq 16.12.0${{< /math >}}，因此需要先安装Node.js。
+{{< callout context="caution" title="注意" icon="alert-triangle" >}}
+不要直接使用`sudo apt-get install nodejs -y`进行安装，Ubuntu22.04官方支持的版本只到12.x。
+{{< /callout >}}
 
-```bash
-conda install 
+通过[nodesource](https://github.com/nodesource/distributions)安装，依次执行下列命令即可：
+
+```bash{title="Download and import the Nodesource GPG key"}
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
 ```
 
-```bash{title="Installing dependencies…"}
-pnpm create hyas@latest
+```bash{title="Create deb repository"}
+NODE_MAJOR=20
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
 ```
 
-### 修改主页
-layout/index.html
+{{< details "Details" >}}
 
-### 修改侧边栏
-调整权重，不要从0开始。。。
+```bash{title="改变NODE_MAJOR以指定版本"}
+NODE_MAJOR=16
+NODE_MAJOR=18
+NODE_MAJOR=20
+NODE_MAJOR=21
 
-### 新建一个docs风格的
-npm run create-- --kind docs name
+```
+
+{{< /details >}}
+
+```bash{title="Run Update and Install"}
+sudo apt-get update
+sudo apt-get install nodejs -y
+```
