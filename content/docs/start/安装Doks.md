@@ -54,3 +54,9 @@ NODE_MAJOR=21
 sudo apt-get update
 sudo apt-get install nodejs -y
 ```
+
+```math
+$$
+\frac{1}{\Gamma(s)}\int_{0}^{\infty}\frac{u^{s-1}}{e^{u}-1}\mathrm{d}u
+$$
+```
