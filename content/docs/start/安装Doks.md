@@ -103,4 +103,4 @@ npm run build
 npm run preview
 ```
 
-不过有时需要build两次，可能是因为缓存的导致的报错。
+不过有时需要build两次，可能是因为缓存导致的报错。
