@@ -1,11 +1,10 @@
 ---
-title: "Readme"
+title: "论文阅读"
 description: ""
 summary: ""
-date: 2023-12-27T15:06:05+08:00
-lastmod: 2023-12-27T15:06:05+08:00
+date: 2023-12-29T09:21:00+08:00
+lastmod: 2023-12-29T09:21:00+08:00
 draft: false
-weight: 100
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
