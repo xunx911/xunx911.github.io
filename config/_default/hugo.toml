@@ -1,4 +1,4 @@
-title = "My Docs"
+title = "无敌火龙果's Blog"
 baseurl = "/"
 canonifyURLs = false
 disableAliases = true
@@ -87,3 +87,12 @@ rel  = "sitemap"
   hint = "photo"
   quality = 75
   resampleFilter = "Box"
+
+[params.giscus]
+repo = "xunx911/xunx911.github.io"
+repoID = "R_kgDOK9QdTA"
+category = "Announcements"
+categoryID = "DIC_kwDOK9QdTM4CcEe6"
+mapping = "pathname"
+reactionsEnabled = "1"
+emitMetadata = "0"
