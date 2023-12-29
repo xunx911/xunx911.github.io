@@ -104,3 +104,19 @@ npm run preview
 ```
 
 不过有时需要build两次，可能是因为缓存导致的报错。
+
+<script src="https://giscus.app/client.js"
+        data-repo="xunx911/xunx911.github.io"
+        data-repo-id="R_kgDOK9QdTA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOK9QdTM4CcEe6"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
