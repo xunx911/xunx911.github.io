@@ -1,1 +1,4 @@
 # Overrides for production environment
+[getresource]
+dir = ':resourceDir/_gen'
+maxAge = -1
