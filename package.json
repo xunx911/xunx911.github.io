@@ -25,7 +25,8 @@
     "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
   },
   "dependencies": {
-    "@hyas/doks-core": "^1.2.0"
+    "@hyas/doks-core": "^1.2.0",
+    "hugo": "^0.0.3"
   },
   "overrides": {
     "semver": "^7.5.4"
