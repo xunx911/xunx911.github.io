@@ -24,18 +24,20 @@ seo:
 ## Webui使用
 
 校园网环境下访问<http://59.78.189.138:8080>
-![登录界面](image.png)
+
+<img src="./image.png" alt="sign in" width="600" height="400">
 
 点击Sign up进行注册，注册完成后需等待管理员进行确认，等待管理员给与权限后即可使用：
-![Alt text](image-1.png)
+<img src="image-1.png" alt="chat" width="600" height="400">
 点击右上角选择模型，也可点击+号一次选择多个模型，建议选择横线下方的baichuan2和yi,其余的只是会指定运行模型的实例：
-![Alt text](image-2.png)
+<img src="image-2.png" alt="select model" width="400" height="800">
 选择完模型后在对话框中输入你的问题即可开始对话。
 注意这两个模型并不支持上传文件对话。
 
 ## api使用
 
 ### 命令行使用
+linux环境下使用以下命令
 
 ```bash
 curl --location 'http://59.78.189.138:8000/chat/completions' \
@@ -59,7 +61,7 @@ curl --location 'http://59.78.189.138:8000/chat/completions' \
 首先安装依赖
 
 ```bash
-pip install 'litellm[proxy]'
+pip install openai
 ```
 
 安装完成后即可在python脚本中使用，请求的格式与openai一致，示例代码如下
